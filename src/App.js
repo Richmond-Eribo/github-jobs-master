@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import JobDescription from './pages/JobDescription'
+import Home from './pages/Home'
 
 function App() {
+  // const HeaderStyle= {
+  //   fontFamily: 'Roboto', sans-serif;
+  // }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className=' p-3'>
+      <header className='headerStyle'>
+        <strong>Github</strong> Jobs
       </header>
+      <Router>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/JobDescribtion' component={JobDescription} />
+        </Switch>
+      </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
