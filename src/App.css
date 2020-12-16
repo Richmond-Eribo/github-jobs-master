@@ -2,13 +2,5 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.headerStyle {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  color: #282538;
-}
-
-.headerStyle strong {
-  font-weight: 500;
-}
+/* font styling */
+@import '/src/font.css';

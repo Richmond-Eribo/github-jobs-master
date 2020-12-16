@@ -1,0 +1,86 @@
+.headerStyle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  color: #282538;
+}
+
+.headerStyle strong {
+  font-weight: 700;
+}
+
+/* component searchForm */
+.input {
+  font-family: 'Roboto', sans-serif;
+}
+
+.input input[type='search'] {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.input input[type='button'] {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/* component searchList */
+.card {
+  font-family: 'Roboto', sans-serif;
+  color: #334680;
+}
+
+.card .company {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.card .title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.card .type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 14px;
+}
+
+.map {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #b7bcce;
+}
+
+/* component Filter */
+.filter {
+  font-family: 'Roboto', sans-serif;
+}
+
+.filter label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #334680;
+}
+
+.location h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #b9bdcf;
+}
